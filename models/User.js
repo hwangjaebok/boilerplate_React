@@ -30,4 +30,5 @@ const UserSchema = mongoose.Schema({
 
 const User = mongoose.model('User',UserSchema)
 
-module.exports={}
+//다른고셍서도 쓸수 있다.
+module.exports={ User }
